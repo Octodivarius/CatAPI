@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 62.5%;
+    font-family: 'Fascinate', cursive;
+}
+body{
+    background-color: rgb(0, 138, 192);
+}
+a , li{
+    text-decoration: none;
+    list-style: none; 
+}
+
+header{
+    
+    font-size: 3rem;
+    color: rgb(255, 0, 212);
+    border-top: 1px solid rgb(255, 0, 157);
+    border-bottom: 1px solid rgb(255, 0, 157);
+    text-align: center;
+    padding-right: 20px;
+    background-color: aqua;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    margin-left: 50px;
+}
+
+
+
+.titulosH2{
+
+    text-align: center;
+    margin: 10px 0;
+    color: rgb(44, 235, 26);
+    font-size: 4rem;
+
+}
+
+
+.botones{
+   display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.botones button{
+    padding: 10px;
+    margin: 0 20px;
+    font-weight: bolder;
+    border: 1px solid olivedrab;
+    background-color: aqua;
+    border-radius: 5px;
+    color: rgb(255, 0, 212);
+
+}
+
+.botones button:hover{
+    cursor: pointer;
+    background-color: orangered;
+    color: aqua;
+}
+
+.imgs{
+
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 0;
+    width: 400;
+
+    gap: 5px;
+}
+
+.imgs article{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.imgs img{
+    width: 200px;
+    height: 200px; 
+}
+
+.buttonFav{
+    margin-top: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 1.8rem;
+    color: rgb(214, 235, 26);   
+}
+
+.buttonFav:hover{
+    color:rgb(255, 47, 200);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+
+.contentFav{
+
+    display: flex;
+       
+}
+
+.contentFav button{
+
+   border: transparent;
+   color:greenyellow;
+   background-color: transparent;
+   font-size: 2rem;
+   margin: 10px;
+    
+}
+
+.contentFav button:hover{
+
+    
+    color:rgb(255, 47, 200);
+    background-color: transparent;
+    font-size: 2rem;
+    cursor: pointer;
+     
+ }
+
+
+
+
+.fa-circle-plus , .fa-circle-minus{
+    font-size: 3rem;
+    margin: 10px 0;
+    
+}
+
+.fa-circle-plus:hover , .fa-circle-minus:hover{
+    cursor: pointer;
+    color: indianred;
+    
+}
+
+.favoritesMichis{
+    margin-left: 50px;
+}
